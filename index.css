@@ -1,0 +1,162 @@
+#mainScreen{
+    background-image:url('Untitled\ design.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:700px;
+    opacity:85%;
+}
+body{
+    font-family:arial;
+    background-color:black;
+}
+#navBar{
+    width:70%;
+    padding:20px;
+}
+#navBar img{
+    width:13%;
+    float:left;
+}
+#navBar select,#button1one{
+    position:relative;
+    left:400px;
+}
+#navBar #button1one{
+    background-color:red;
+    padding:8px;
+    border:none;
+    color:white;
+    border-radius:3px;
+    margin-left:15px;
+    width:75px;
+}
+#button1one{
+    cursor:pointer;
+    border: white 10px solid;
+}
+#anchorButton1one{
+    color:white;
+    text-decoration:none;
+}
+#navBar select{
+    background-color:transparent;
+    color:white;
+    padding:5px;
+    border-radius:3px;
+    margin-left:15px;
+    width:100px;
+    padding:5px;
+}
+#EMAIL1{
+    color:white;
+    margin-top:150px;
+}
+#EMAIL1 h1{
+    font-size:50px;
+}
+#EMAIL1 p{
+    font-size:22px;
+}
+#EMAIL1 form input{
+    padding:18px;
+    width:300px;
+    background-color:black;
+    opacity:70%;
+    color:white;
+    position:relative;
+    top:80px;
+}
+#EMAIL1 form button{
+    width:200px;
+    font-size:25px;
+    padding:11px;
+    color:white;
+    border:none;
+    background-color:red;
+    border-radius:5px;
+    position:relative;
+    top:5px;
+    position:relative;
+    top:85px;
+}
+#EMAIL1 form button:hover{
+    cursor:pointer;
+    border: white 1px solid;
+}
+#standardImg{
+    position:relative;
+    bottom:70px;
+    left:75px;
+}
+#enjoyContainer{
+    color:white;
+    display:flex;
+    position:relative;
+    left:300px;
+}
+#enjoyContainer img{
+    width:700px;
+    float:right;
+    position:relative;
+    right:300px;
+}
+#enjoyContainer h1{
+    font-size:50px;
+}
+#enjoyContainer p{
+    font-size:25px;
+    width:60%;
+}
+#enjoyContainer h1,p{
+    position:relative;
+}
+#hrOne{
+    background-color:#303030;
+    border:none;
+}
+#hrTwo{
+    background-color:#303030;
+    border:none;
+}
+#watchContainer{
+    display:flex;
+    width:70%;
+    position:relative;
+    left:300px;
+}
+#watchContainer img{
+    width:700px;
+    float:left;
+}
+#watchContainer h1,p{
+    color:white;
+}
+#watchContainer h1{
+    font-size:50px;
+}
+#watchContainer p{
+    font-size:25px;
+}
+#kidsContainer{
+    color:white;
+    display:flex;
+    position:relative;
+    left:300px;
+}
+#kidsContainer img{
+    width:700px;
+    float:right;
+    position:relative;
+    right:450px;
+}
+#kidsContainer h1{
+    font-size:50px;
+}
+#kidsContainer p{
+    font-size:25px;
+    width:60%;
+}
+#kidsContainer h1,p{
+    position:relative;
+    top:50px;
+}

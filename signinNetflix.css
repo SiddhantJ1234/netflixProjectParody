@@ -1,0 +1,90 @@
+#mainScreen{
+    background-image:url('Untitled\ design.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:900px;
+    opacity:75%;
+}
+body{
+    font-family:arial;
+    background-color:black;
+}
+#navBar{
+    width:70%;
+    padding:20px;
+}
+#navBar img{
+    width:13%;
+    float:left;
+    position:relative;
+    left:260px;
+}
+h1{
+    text-align:left;
+    color:white;
+    position:relative;
+    left:45px;
+}
+form{
+    width:23%;
+    margin:20px;
+    background-color:black;
+    padding:10px;
+    opacity:85%;
+    height:700px;
+}
+input[type=text],input[type=password]{
+    width:70%;
+    padding:17px;
+    background-color:#151515;
+    color:white;
+    border:1px white solid;
+    border-radius:3px;
+}
+#SnBtn{
+    width:78%;
+    padding:11px;
+    color:white;
+    background-color:red;
+    border:none;
+    border-radius:3px;
+}
+#CodeBtn{
+    width:78%;
+    padding:11px;
+    color:white;
+    background-color:grey;
+    border:none;
+    border-radius:3px;
+    opacity:70%;
+    font-weight:bold;
+}
+input[type=checkbox],#checkBoxLabel{
+    position:relative;
+    right:110px;
+    color:white;
+
+}
+input[type=checkbox]{
+    color:#151515;
+}
+#lbl1,#lbl2{
+    color:white;
+    position:relative;
+    right:55px;
+    font-size:18px;
+}
+#lbl2{
+    font-weight:bold;
+}
+#lblLast{
+    font-size:12px;
+    width:60%;
+    text-align:left;
+    position:relative;
+    right:50px;
+    color:grey;
+}
+#lbl3{
+    color:blue;
+}
